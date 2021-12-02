@@ -1,6 +1,14 @@
 
 
 
+#DAY 2 advent of coding
+#In addition to horizontal position and depth, you'll also need to track a third value, aim, which also starts at 0. The commands also mean something entirely different than you first thought:
+# down X increases your aim by X units.
+# up X decreases your aim by X units.
+# forward X does two things:
+# It increases your horizontal position by X units.
+# It increases your depth by your aim multiplied by X.
+
 
 #Reading the file that advent provides us and converting it into a array
 def readFile():
